@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Todo List</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="inputMenu">
+        <h1 class="inputMenuTitle">ToDo List</h1>
+        <input
+          name="todo"
+          type="text"
+          placeholder="Todoを入力してください。"
+          id="todoInput"
+        />
+      </div>
+      <div class="dolist">
+        <h2 class="listTitle">☆Do☆</h2>
+        <ul class="dolist-contents">
+          <!-- <li class="dolist-item">
+            <input type="checkbox" class="list-chk" />
+            <span class="dolist-txt">1234567890</span>
+            <button class="material-icons">delete</button>
+          </li> -->
+        </ul>
+      </div>
+      <div class="donelist">
+        <h2 class="listTitle">★Done★</h2>
+        <ul class="donelist-contents">
+          <!-- <li class="donelist-item">
+            <input type="checkbox" class="list-chk" />
+            <span class="donelist-txt">123456789012345678901234567890</span>
+            <button class="material-icons">delete</button>
+          </li> -->
+        </ul>
+      </div>
+    </div>
+    <script type="text/javascript" src="./js/todolist.js"></script>
+  </body>
+</html>
